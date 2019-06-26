@@ -25,9 +25,9 @@ Si quisieramos comunicarnos directamente con una computadora deberíamos poner e
 
 Desde el comienzo de la informática este problema fue evidente y se empezaron a crear diversos lenguajes que nos permitieran interactuar con computadoras de una manera que pudiera ser fácilmente comprensible para alguien nuevo al código y que nos permitiera modelar programas complejos sin tener que dar vuelta cientos de miles de bits individualmente.
 
-## Intérpreteas y compiladores
+## Intérpretes y compiladores
 
-Los lenguajes de programación necesitan para ser útiles otros programas que los conviertas al lenguaje de la computadora, estos programas son los que llamaremos intérpretes y compiladores.
+Los lenguajes de programación necesitan para ser útiles otros programas que los conviertas al lenguaje de la computadora, a estos programas los llamaremos **intérpretes** y **compiladores**.
 
 Un intérprete es un programa que toma lo que escribimos en nuestro lenguaje amigable y expresivo (eficiente en términos de escribir poco y decir mucho) , lo traduce a binario para que la computadora lo ejecute y lo ejecuta inmediatamente. Seguirá ejecutandose hasta terminar o encontrar un error.
 
@@ -39,7 +39,7 @@ Hoy es común referirse a estos archivos compilados como **Apps**.
 
 ## Qué lenguaje aprender primero
 
-Python es el lenguaje más usado para aprender a programar. Más orientado al desarrollo web se puede empezar por Javascript y para lo demás en Altoros se usa mucho Ruby. Los 3 son lenguajes interpretados, esta es probablemente una buena característica cuando recién se está empezando y no se poseen muchos conocimientos del campo ya que facilita la experimentación y por lo tanto ayuda a un rápido aprendizaje.
+Python es el lenguaje más usado para aprender a programar. Si buscamos algo orientado al desarrollo web se puede empezar por **Javascript** y para lo demás también se usa mucho **Ruby**. Los 3 son lenguajes interpretados y por lo tanto amigables para empezar a aprender ya que facilitan la experimentación ayudando a un rápido aprendizaje.
 
 Los lenguajes interpretados suelen tener un **Command Line Interface** o CLI interactivo que permite probar rápidamente las expresiones que construyamos. Al ejectuarlo veremos un **prompt** con un cursor parpadeante, allí podremos introducir lo que queramos y será evaluado al apretar **enter**
 
@@ -47,9 +47,9 @@ Los lenguajes interpretados suelen tener un **Command Line Interface** o CLI int
 $_
 ```
 
-Ya que los interpretes son programas, les recomendamos que se bajen alguno y jueguen un poco. Al instalar el interprete de python desde python.org pueden acceder al CLI ejecutando una terminal y escribiendo `python`. Para abrir una terminal en windows buscar la app `powershell` y en Mac la app `Terminal`
+Ya que los interpretes son programas es recomendable bajarse alguno de ellos y jugar un poco. Tras instalar el interprete de python que se puede descargar desde [el sitio oficial](http://python.org) pueden acceder al CLI ejecutando una terminal y escribiendo `python`. Para abrir una terminal en windows buscar la app `powershell` y en Mac la app `Terminal`
 
-Un ejemplo en mi terminal de MacOS
+Un ejemplo de lo que haría en mi terminal de MacOS
 
 ```
 micompu:ejemplo tumasj$ python
@@ -59,7 +59,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-y puedo ejecutar algo como 
+y ya puedo ejecutar código Python:
 
 ```
 >>> 2 + 2
@@ -71,11 +71,11 @@ y puedo ejecutar algo como
 
 Llamaremos así al conjunto de archivos escritos en un **lenguaje de programación** que constituirán nuestro programa. Estos archivos estarán en texto plano y solo se diferenciarán de otros archivos de texto por su extensión y contenido. Los archivos de Python tendrán la extensión `.py`, los de Javascript `.js`, etc.
 
-# META: Ejemplo corriendo un Hello World en Python
+<!-- # META: Ejemplo corriendo un Hello World en Python -->
 
 ### Identificadores
 
-Llamaremos así a las palabras que usaremos para identificar conceptos creados por programadores, nosotros mismos o que vengan de **Libraries** (bibliotecas) externas. Una **Library** agrupa un conjunto de funcionalidad para que un programador la reuse en su programa. Por ejemplo una librería llamada "Math" de javascript nos permite hacer fácilmente (en términos de tiempo del programador) una raiz cuadrada escribiendo `Math.sqrt`.
+Llamaremos así a las palabras que usaremos para identificar conceptos creados por programadores, nosotros mismos o que vengan de **Libraries** (bibliotecas) externas. Una **Library** agrupa un conjunto de funcionalidad para que un programador la reuse en su programa. Por ejemplo una librería llamada "Math" de javascript nos permite hacer fácilmente (en términos de tiempo del programador) la raiz cuadrada de 5 escribiendo `Math.sqrt(5)`.
 
 ### Keywords
 
@@ -107,7 +107,7 @@ Son valores que escribimos en el código como expresiones literales. En los ejem
 
 Es el propósito de cualquier lenguaje de programación permitirnos **hacer** operaciones con datos, sorprendemente llamamos a los elementos que nos permiten hacerlas "operadores". En general tenemos las siguientes categorías:
 
-- Aritméticos: para operaciones aritméticas. Ejemplos: `+ - * /`.
+- Aritméticos: para operaciones aritméticas. Algunos ejemplos: `+ - * /`
 - De asignación: para determinar valores a variables y constantes, el `=` de los ejemplos anteriores. No confundir su significado con "igual a".
 - Relacionales: para comparar valores. Ejemplos `a < b` compararía el valor de `a` y `b` y sería verdadero solo si `b` es mayor.
 - Lógicos: para trabajar con lógica, escencialmente establecer condiciones respecto a valores que sabemos verdaderos o falsos. Ejemplo: `a && b` representa la afirmación "a y b" y será verdadero solo si ambos son verdaderos.
@@ -232,7 +232,7 @@ while (condición):
 En el ejemplo anterior los statements se pueden ejecutar 1 vez, muchas veces o ninguna, si el valor de la condición era falso al comienzo.
 
 
-Si por ejemplo se ejecutara 2 veces tendríamos la siguiente secuencia de statements:
+Si por ejemplo se repitiera 2 veces tendríamos la siguiente secuencia de statements:
 
 ```
 S1 S2 S3 S1 S2 S3
