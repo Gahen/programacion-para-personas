@@ -77,6 +77,8 @@ Llamaremos así al conjunto de archivos escritos en un **lenguaje de programaci�
 
 Llamaremos así a las palabras que usaremos para identificar conceptos creados por programadores, nosotros mismos o que vengan de **Libraries** (bibliotecas) externas. Una **Library** agrupa un conjunto de funcionalidad para que un programador la reuse en su programa. Por ejemplo una librería llamada "Math" de javascript nos permite hacer fácilmente (en términos de tiempo del programador) la raiz cuadrada de 5 escribiendo `Math.sqrt(5)`.
 
+Llamamos **framework** a una librería que nos provee bastante funcionalidad y además nos sugiere una manera de estructurar el código, con el fin de ahorrar tiempo de desarrollo y tener un resultado más claro y mantenible. Como hay muchas opiones diferentes de qué es "claro", "mantenible" y si nos interesa o no la funcionalidad que un framework nos da, hay numerosos frameworks populares en cada lenguaje de programación.
+
 ### Keywords
 
 Traducido usualmente como **palabras reservadas**, serán todas aquellas que tienen un significado estructural en el código fuente. Dependerán del lenguaje que estemos usando. En general los caracteres no alfabéticos son palabras reservadas y tienen significados especiales, por ejemplo: `[] {} , . ; () ! "" ''` y todos los símbolos matemáticos `+ - * / = < >`.
