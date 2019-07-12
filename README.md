@@ -1,53 +1,58 @@
 ## Consideraciones preliminares
 
-Tal vez por colonización cultural o simplemente por arbitrariedad histórica el inglés se estableció como el idioma de los conceptos de la programación. Por ello algunas palabras no las traduciremos ya que las tomaremos como conceptos del arte en si mismos, de la misma manera que en la música no se traduce "presto" a "lento" y en la danza clásica se nombran las posturas en francés.
+Tal vez por colonización cultural - o simplemente por arbitrariedad histórica - el inglés se estableció como el idioma de los conceptos de la programación. Por ello, algunas palabras no las traduciremos ya que las tomaremos como conceptos del arte en si mismos, de la misma manera que en la música no se traduce "presto" a "lento" y en la danza clásica se nombran las posturas en francés.
 
 
-Algunas palabras se usarán sin explicarlas en el sentido entendido comunmente, por ejemplo "archivo", "ejecutar un programa"
+Algunas palabras se usarán sin explicarlas en el sentido entendido comunmente, por ejemplo "archivo", "ejecutar un programa".
 
-Sin embargo siempre que sea posible las traduciremos y pueden preguntar cualquier palabra o concepto que necesite una mejor aclaración.
+Sin embargo, siempre que sea posible las traduciremos y pueden preguntar cualquier palabra o concepto que necesite una mejor aclaración.
 
-## Qué es programar
+## ¿Qué es programar?
 
-De manera simple podríamos decir que **programar** es "la acción de decirle qué tareas realizar a una computadora". Un **programa informático** es, a su vez, una serie de instrucciones que la computadora ejecuta. Por **computadora** nos referimos a cualquier dispositivo capaz de procesar **código**, es decir tablets, celulares, notebooks, etc.
+De manera simple, podríamos decir que **programar** es "la acción de decirle qué tareas realizar a una computadora". Un **programa informático** es, a su vez, una serie de instrucciones que la computadora ejecuta. Por **computadora** nos referimos a cualquier dispositivo capaz de procesar **código**, como tablets, celulares y notebooks.
 
 ## Código
 
-Llamamos así al objeto que moldeamos al programar, lo que constituirá una vez terminado el programa informático que será procesado en la computadora. Siempre se lo llama en singular, no tiene sentido hablar de "los códigos".
+Llamamos así al objeto que moldeamos al programar, lo que constituirá, una vez terminado, el programa informático que será procesado en la computadora. Siempre se lo llama en singular, no tiene sentido hablar de "los códigos".
 
+/////////////////
+//aclarar
 ## Lenguaje natural de las computadoras
 
 Los equipos electrónicos se comunican en un lenguaje binario, la mínima unidad de información (bit) solo tiene 2 valores posibles, usualmente los representamos como 0 (apagado) o 1 (encendido). Así se encuentra la información almacenada en discos rígidos, unidades de memoria.
 
-Si quisieramos comunicarnos directamente con una computadora deberíamos poner en ciertas partes de la memoria ciertos bits en 0 y otros en 1 y luego esperar a que los procese. No sería agradable, eficiente ni claro.
+Si quisieramos comunicarnos directamente con una computadora, deberíamos poner en ciertas partes de la memoria ciertos bits en 0 y otros en 1 y luego esperar a que los procese. No sería agradable, eficiente, ni claro.
 
 ## Lenguajes de programación
 
-Desde el comienzo de la informática este problema fue evidente y se empezaron a crear diversos lenguajes que nos permitieran interactuar con computadoras de una manera que pudiera ser fácilmente comprensible para alguien nuevo al código y que nos permitiera modelar programas complejos sin tener que dar vuelta cientos de miles de bits individualmente.
+Desde el comienzo de la informática, este problema fue evidente y se empezaron a crear diversos lenguajes que nos permitieran interactuar con computadoras de una manera que fácilmente comprensible para alguien nuevo al código y que nos permitiera modelar programas complejos sin tener que dar vuelta cientos de miles de bits individualmente.
+///////////////////////
 
 ## Intérpretes y compiladores
 
-Los lenguajes de programación necesitan para ser útiles otros programas que los conviertas al lenguaje de la computadora, a estos programas los llamaremos **intérpretes** y **compiladores**.
+Para que sean útiles, los lenguajes de programación necesitan otros programas que los conviertan al lenguaje de la computadora. A estos programas los llamaremos **intérpretes** y **compiladores**.
 
-Un intérprete es un programa que toma lo que escribimos en nuestro lenguaje amigable y expresivo (eficiente en términos de escribir poco y decir mucho) , lo traduce a binario para que la computadora lo ejecute y lo ejecuta inmediatamente. Seguirá ejecutandose hasta terminar o encontrar un error.
+Un intérprete es un programa que toma lo que escribimos en nuestro lenguaje amigable y expresivo (eficiente, en términos de escribir poco y decir mucho) , lo traduce a binario para que la computadora lo ejecute y lo ejecuta inmediatamente. Seguirá ejecutándose hasta terminar o encontrar un error.
 
-Un compilador hace algo similar al interprete, pero se diferencia en que no ejecuta el código compilado de manera inmediata, sino que nos genera un archivos binarios (el **programa** propiamente dicho) que luego podremos ejecutar cuando querramos. Terminará al procesar todo el código que le pedimos o al encontrar un error, en cuyo caso no generará un archivo ejecutable.
+Un compilador hace algo similar al intérprete, pero se diferencia en que no ejecuta el código compilado de manera inmediata, sino que nos genera un archivo binario (el **programa** propiamente dicho) que luego podremos ejecutar cuando querramos. Terminará al procesar todo el código que le pedimos o al encontrar un error. En el último caso, no generará un archivo ejecutable.
 
-Tras ejecutar el programa que se cerrará sólo al terminar de correr todas las instrucciones o al encontrar un error. Mientras esté en ejecución nuestro programa (binario o interpretado) reservará parte de los recursos físicos de la computadora: memoria, espacio en disco, capacidad de procesamiento. Al terminar todos estos recursos vuelven a estar disponible para los demás programas.
+Al terminar de correr todas las instrucciones - o al encontrar un error - el programa se cerrará. Mientras esté en ejecución, nuestro programa (binario o interpretado) reservará parte de los recursos físicos de la computadora: memoria, espacio en disco, capacidad de procesamiento. Al terminar, todos estos recursos vuelven a estar disponibles para los demás programas.
 
-Hoy es común referirse a estos archivos compilados como **Apps**.
+Actualmente, es común referirse a estos archivos compilados como **Apps**.
 
-## Qué lenguaje aprender primero
+## ¿Qué lenguaje aprender primero?
 
-Python es el lenguaje más usado para aprender a programar. Si buscamos algo orientado al desarrollo web se puede empezar por **Javascript** y para lo demás también se usa mucho **Ruby**. Los 3 son lenguajes interpretados y por lo tanto amigables para empezar a aprender ya que facilitan la experimentación ayudando a un rápido aprendizaje.
+//revisar
+Python es el lenguaje más usado para aprender a programar. Si buscamos algo orientado al desarrollo web, se puede empezar por **Javascript**. Para lo demás también se usa mucho **Ruby**. Los tres son lenguajes interpretados, y por lo tanto amigables para empezar a aprender, ya que facilitan la experimentación ayudando a un rápido aprendizaje.
+//
 
-Los lenguajes interpretados suelen tener un **Command Line Interface** o CLI interactivo que permite probar rápidamente las expresiones que construyamos. Al ejectuarlo veremos un **prompt** con un cursor parpadeante, allí podremos introducir lo que queramos y será evaluado al apretar **enter**
+Los lenguajes interpretados suelen tener un **Command Line Interface** - o CLI interactivo - que permite probar rápidamente las expresiones que construyamos. Al ejectuarlo, veremos un **prompt** con un cursor parpadeante, y allí podremos introducir lo que queramos y evaluarlo apretando **enter**
 
 ```
 $_
 ```
 
-Ya que los interpretes son programas es recomendable bajarse alguno de ellos y jugar un poco. Tras instalar el interprete de python que se puede descargar desde [el sitio oficial](http://python.org) pueden acceder al CLI ejecutando una terminal y escribiendo `python`. Para abrir una terminal en windows buscar la app `powershell` y en Mac la app `Terminal`
+Los interpretes son programas, y por lo tanto es recomendable bajarse alguno de ellos y jugar un poco. Descargando el intérprete de python desde [el sitio oficial](http://python.org), se puede acceder al CLI ejecutando una terminal y escribiendo `python`. Para abrir una terminal en windows buscar la app `powershell` y en Mac la app `Terminal`
 
 Un ejemplo de lo que haría en mi terminal de MacOS
 
