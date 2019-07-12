@@ -1,6 +1,6 @@
 ## Consideraciones preliminares
 
-Tal vez por colonización cultural - o simplemente por arbitrariedad histórica - el inglés se estableció como el idioma de los conceptos de la programación. Por ello, algunas palabras no las traduciremos ya que las tomaremos como conceptos del arte en si mismos - de la misma manera que en la música no se traduce "presto" a "lento" y en la danza clásica se nombran las posturas en francés.
+Tal vez por colonización cultural - o simplemente por arbitrariedad histórica - el inglés se estableció como el idioma de los conceptos de la programación. Por ello, algunas palabras no las traduciremos ya que las tomaremos como conceptos del arte en si mismos, de la misma manera que en la música no se traduce "presto" a "lento" y en la danza clásica se nombran las posturas en francés.
 
 
 Algunas palabras se usarán sin explicarlas en el sentido entendido comunmente, por ejemplo "archivo", "ejecutar un programa".
@@ -32,7 +32,7 @@ Desde el comienzo de la informática, este problema fue evidente y se empezaron 
 
 Para que sean útiles, los lenguajes de programación necesitan otros programas que los conviertan al lenguaje de la computadora. A estos programas los llamaremos **intérpretes** y **compiladores**.
 
-Un intérprete es un programa que toma lo que escribimos en nuestro lenguaje amigable y expresivo (eficiente, en términos de escribir poco y decir mucho) , lo traduce a binario para que la computadora lo ejecute y lo ejecuta inmediatamente. Seguirá ejecutándose hasta terminar - o encontrar un error.
+Un intérprete es un programa que toma lo que escribimos en nuestro lenguaje amigable y expresivo (eficiente, en términos de escribir poco y decir mucho) , lo traduce a binario para que la computadora lo ejecute y lo ejecuta inmediatamente. Seguirá ejecutándose hasta terminar o encontrar un error.
 
 Un compilador hace algo similar al intérprete, pero se diferencia en que no ejecuta el código compilado de manera inmediata, sino que nos genera un archivo binario (el **programa** propiamente dicho) que luego podremos ejecutar cuando querramos. Terminará al procesar todo el código que le pedimos o al encontrar un error. En el último caso, no generará un archivo ejecutable.
 
