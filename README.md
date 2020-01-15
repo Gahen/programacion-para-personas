@@ -15,8 +15,7 @@ De manera simple, podríamos decir que **programar** es "la acción de decirle q
 
 Llamamos así al objeto que moldeamos al programar, lo que constituirá, una vez terminado, el programa informático que será procesado en la computadora. Siempre se lo llama en singular, no tiene sentido hablar de "los códigos".
 
-/////////////////
-//aclarar
+<!-- aclarar -->
 ## Lenguaje natural de las computadoras
 
 Los equipos electrónicos se comunican en un lenguaje binario, la mínima unidad de información (bit) solo tiene 2 valores posibles, usualmente los representamos como 0 (apagado) o 1 (encendido). Así se encuentra la información almacenada en discos rígidos, unidades de memoria.
@@ -26,7 +25,7 @@ Si quisieramos comunicarnos directamente con una computadora, deberíamos poner 
 ## Lenguajes de programación
 
 Desde el comienzo de la informática, este problema fue evidente y se empezaron a crear diversos lenguajes que nos permitieran interactuar con computadoras de una manera que fácilmente comprensible para alguien nuevo al código y que nos permitiera modelar programas complejos sin tener que dar vuelta cientos de miles de bits individualmente.
-///////////////////////
+<!-- fin aclarar -->
 
 ## Intérpretes y compiladores
 
@@ -42,9 +41,9 @@ Actualmente, es común referirse a estos archivos compilados como **Apps**.
 
 ## ¿Qué lenguaje aprender primero?
 
-//revisar
+<!-- revisar  -->
 Python es el lenguaje más usado para aprender a programar. Si buscamos algo orientado al desarrollo web, se puede empezar por **Javascript**. Para lo demás también se usa mucho **Ruby**. Los tres son lenguajes interpretados, y por lo tanto amigables para empezar a aprender, ya que facilitan la experimentación ayudando a un rápido aprendizaje.
-//
+<!-- fin revisar  -->
 
 Los lenguajes interpretados suelen tener un **Command Line Interface** - o CLI interactivo - que permite probar rápidamente las expresiones que construyamos. Al ejectuarlo, veremos un **prompt** con un cursor parpadeante, y allí podremos introducir lo que queramos y evaluarlo apretando **enter**
 
@@ -265,4 +264,4 @@ Finalmente mencionaré que el programador también tiene que tener presente a su
 
 > NOTE: I don’t recommend over-reading on the same topic. I believe in acting on the little you’ve learned, that is, practicing. This is why I’m not dumping too many links here for your learning. Feel free to google up or find others based on what you already know if you are not a first-timer.
 
-- Permalink al texto de esta charla: [link](http://some-url.com.ar)
+- Permalink al texto de esta charla: [link](https://github.com/Gahen/programacion-para-personas)
