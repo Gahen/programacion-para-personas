@@ -258,8 +258,6 @@ Finalmente mencionaré que el programador también tiene que tener presente a su
 
 - Existen compiladores híbridos que pasan de código fuente a un **bytecode** o "código precompilado", Java hace esto y el resultado es interpretaado por otro programa, la **Java Virtual Machine** o JVM. También existen lenguajes cuya finalidad es ser compilados (**transpiled**) a otros, como Typescript a Javascript, esto es común en la web ya que los navegadores solo ejecutan Javascript.
 
-- Hay quien dice que los programadores solo copiamos y pegámos código de Internet. Tal vez no sea cierto, pero esta guía fue escrita tomando como guía https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c 
-
-> NOTE: I don’t recommend over-reading on the same topic. I believe in acting on the little you’ve learned, that is, practicing. This is why I’m not dumping too many links here for your learning. Feel free to google up or find others based on what you already know if you are not a first-timer.
+- Hay quien dice que los programadores solo copiamos y pegámos código de Internet. Tal vez no sea cierto, pero esta guía fue escrita tomando como base https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c 
 
 - Permalink al texto de esta charla: [link](https://github.com/Gahen/programacion-para-personas)
