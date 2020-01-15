@@ -131,8 +131,6 @@ palabras_escritas = 12345
 
 Para poder guardar información en la memoria, por ejemplo usando los **literals** que vimos antes, el programa necesita saber el contenido y también el tipo de información que estamos guardando. De esta manera `'hola'` sería de tipo `string` (cadena de texto) y `12345` sería de algún tipo numérico `number`. Cada lenguaje tiene sus tipos asociados, aunque encontramos similitudes entre todos.
 
-# TODO: buscar el tipo numerico de python y ponerlo arriba y abajo
-
 ### Básicos
 
 Estos son los tipos que estaremos usando sin ni siquiera pensar en ellos, además de `string` y `number` podríamos mencionar `boolean` para valores verdadero o falso y `char` para representar un solo caracter o letra.
