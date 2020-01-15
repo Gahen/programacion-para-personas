@@ -79,11 +79,11 @@ Llamaremos así al conjunto de archivos escritos en un **lenguaje de programaci�
 
 ### Identificadores
 
-Llamaremos así a las palabras que usaremos para identificar conceptos creados por programadores: nosotros mismos o que vengan de **Libraries** (bibliotecas) externas. 
+Llamaremos así a las palabras que usaremos para identificar conceptos creados por programadoras: nosotres mismes o que vengan de **Libraries** (bibliotecas) externas. 
 
 ### Libraries y Frameworks
 
-Una **Library** agrupa un conjunto de funcionalidad para que un programador la reuse en su programa. Por ejemplo una biblioteca llamada "Math" de javascript nos permite hacer fácilmente (en términos de tiempo del programador) la raiz cuadrada de 5 escribiendo `Math.sqrt(5)`.
+Una **Library** agrupa un conjunto de funcionalidad para que una programadora la reuse en su programa. Por ejemplo una biblioteca llamada "Math" de javascript nos permite hacer fácilmente (en términos de tiempo de la programadora) la raiz cuadrada de 5 escribiendo `Math.sqrt(5)`.
 
 Llamamos **framework** a una biblioteca que nos provee bastante funcionalidad y además nos sugiere una manera de estructurar el código, con el fin de ahorrar tiempo de desarrollo y tener un resultado más claro y mantenible. Como hay muchas opiniones diferentes de qué es "claro", "mantenible" y si nos interesa o no la funcionalidad que un framework nos da, hay numerosos frameworks populares en cada lenguaje de programación.
 
@@ -124,7 +124,7 @@ Es el propósito de cualquier lenguaje de programación permitirnos **hacer** op
 
 ### Comentarios
 
-Que el código fuente sea claro es muy importante, así algún programador distinto podrá entender como funciona sin dedicarle muchísimo esfuerzo. Esto se logra escribiendo una buena **documentación** y una manera de lograr eso es añadiendo **comentarios** en las partes más importantes o que puedan ser confusas. Los intérpretes y compiladores ignoran los comentarios, es decir que el resultado final será igual sin importar cuantos añadamos, son solamente para los ojos de la siguiente programadora.
+Que el código fuente sea claro es muy importante, así alguna programadora distinta podrá entender como funciona sin dedicarle muchísimo esfuerzo. Esto se logra escribiendo una buena **documentación** y una manera de lograr eso es añadiendo **comentarios** en las partes más importantes o que puedan ser confusas. Los intérpretes y compiladores ignoran los comentarios, es decir que el resultado final será igual sin importar cuantos añadamos, son solamente para los ojos de la siguiente programadora.
 
 ```python
 # Esta variable siempre tendrá el número de palabras escritas actualizado
@@ -254,14 +254,14 @@ S1 S2 S3 S1 S2 S3
 
 Habiendo definido la programación como instruir a una computadora sobre qué tareas debe realizar, implíciamente asumimos que tenemos algún objetivo finla en nuestra tarea. De ahí que podríamos decir que programar es también "resolver problemas por medio de una computadora", a veces serán problemas inacibles e integrados a soluciones no informáticas como "desarrollar una app que me permita conseguir estacionamiento fácil y barato" pero usualmente los descompondremos en problemas solubles solo con código como "dada una representación de un mapa con estacionamientos y mi posición, quiero obtener el más cercano y barato a la posición dada".
 
-El programador es entonces una persona más o menos apasionada en resolver problemas y desafíos de manera cotidiana. Otra cosa implícita en la definición anterior es que no existe **una** solución única a un problema así que también podemos inferir que programar exige un esfuerzo creativo y educado, debemos encontrar una solución y aquella debe ser aceptable, entre otras cosas, en términos de eficiencia. Si la aplicación que le preguntamos donde estacionar nos response 3 horas después habiendo gastado toda la batería del celular no es válida para nuestro caso de uso. Hacer un programa aceptable requiere, entonces, de conocer de programación y también del contexto de nuestros usuarios.
+La persona programadora es entonces una persona más o menos apasionada en resolver problemas y desafíos de manera cotidiana. Otra cosa implícita en la definición anterior es que no existe **una** solución única a un problema así que también podemos inferir que programar exige un esfuerzo creativo y educado, debemos encontrar una solución y aquella debe ser aceptable, entre otras cosas, en términos de eficiencia. Si la aplicación que le preguntamos donde estacionar nos response 3 horas después habiendo gastado toda la batería del celular no es válida para nuestro caso de uso. Hacer un programa aceptable requiere, entonces, de conocer de programación y también del contexto de nuestros usuarios.
 
-Finalmente mencionaré que el programador también tiene que tener presente a sus colegas del futuro siendo ordenado y claro en la solución que escriba. Es muy usual encontrar soluciones breves a problemas complejos que solo el que las escribió entiende, algo que en general no es deseable ni aceptable profesionalmente.
+Finalmente mencionaré que la programadora también tiene que tener presente a sus colegas del futuro siendo ordenado y claro en la solución que escriba. Es muy usual encontrar soluciones breves a problemas complejos que solo el que las escribió entiende, algo que en general no es deseable ni aceptable profesionalmente.
 
 ## Saber más
 
 - Existen compiladores híbridos que pasan de código fuente a un **bytecode** o "código precompilado", Java hace esto y el resultado es interpretaado por otro programa, la **Java Virtual Machine** o JVM. También existen lenguajes cuya finalidad es ser compilados (**transpiled**) a otros, como Typescript a Javascript, esto es común en la web ya que los navegadores solo ejecutan Javascript.
 
-- Hay quien dice que los programadores solo copiamos y pegámos código de Internet. Tal vez no sea cierto, pero esta guía fue escrita tomando como base https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c 
+- Hay quien dice que las programadoras solo copiamos y pegámos código de Internet. Tal vez no sea cierto, pero esta guía fue escrita tomando como base https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c 
 
 - Permalink al texto de esta charla: [link](https://github.com/Gahen/programacion-para-personas)
