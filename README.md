@@ -228,7 +228,7 @@ else:
   S3 S4
 ```
 
-En este otro ejemplo, introducimos la palabra clave `else` que nos permite hacer algo si la condición **no** se cumple. También vemos que no estamos limitados a ejecutar un solo statement por condicional.
+En este otro ejemplo, introdujimos la palabra clave `else` que nos permite hacer algo si la condición **no** se cumple. También vemos que no estamos limitados a ejecutar un solo statement por condicional.
 
 ### Ejecución repetida: bucles, iteración y repetición
 
