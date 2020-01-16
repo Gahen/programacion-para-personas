@@ -15,8 +15,7 @@ De manera simple, podríamos decir que **programar** es "la acción de decirle q
 
 Llamamos así al objeto que moldeamos al programar, lo que constituirá, una vez terminado, el programa informático que será procesado en la computadora. Siempre se lo llama en singular, no tiene sentido hablar de "los códigos".
 
-/////////////////
-//aclarar
+<!-- aclarar -->
 ## Lenguaje natural de las computadoras
 
 Los equipos electrónicos se comunican en un lenguaje binario, la mínima unidad de información (bit) solo tiene 2 valores posibles, usualmente los representamos como 0 (apagado) o 1 (encendido). Así se encuentra la información almacenada en discos rígidos, unidades de memoria.
@@ -25,8 +24,8 @@ Si quisieramos comunicarnos directamente con una computadora, deberíamos poner 
 
 ## Lenguajes de programación
 
-Desde el comienzo de la informática, este problema fue evidente y se empezaron a crear diversos lenguajes que nos permitieran interactuar con computadoras de una manera que fácilmente comprensible para alguien nuevo al código y que nos permitiera modelar programas complejos sin tener que dar vuelta cientos de miles de bits individualmente.
-///////////////////////
+Desde el comienzo de la informática, este problema fue evidente y se empezaron a crear diversos lenguajes que nos permitieran interactuar con computadoras de una manera fácilmente comprensible para alguien nuevo al código y que nos permitiera modelar programas complejos sin tener que dar vuelta cientos de miles de bits individualmente.
+<!-- fin aclarar -->
 
 ## Intérpretes y compiladores
 
@@ -42,9 +41,9 @@ Actualmente, es común referirse a estos archivos compilados como **Apps**.
 
 ## ¿Qué lenguaje aprender primero?
 
-//revisar
+<!-- revisar  -->
 Python es el lenguaje más usado para aprender a programar. Si buscamos algo orientado al desarrollo web, se puede empezar por **Javascript**. Para lo demás también se usa mucho **Ruby**. Los tres son lenguajes interpretados, y por lo tanto amigables para empezar a aprender, ya que facilitan la experimentación ayudando a un rápido aprendizaje.
-//
+<!-- fin revisar  -->
 
 Los lenguajes interpretados suelen tener un **Command Line Interface** - o CLI interactivo - que permite probar rápidamente las expresiones que construyamos. Al ejectuarlo, veremos un **prompt** con un cursor parpadeante, y allí podremos introducir lo que queramos y evaluarlo apretando **enter**
 
@@ -57,7 +56,7 @@ Los interpretes son programas, y por lo tanto es recomendable bajarse alguno de 
 Un ejemplo de lo que haría en mi terminal de MacOS
 
 ```
-micompu:ejemplo tumasj$ python
+micompu:ejemplo gahen$ python
 Python 2.7.16 (default, Mar  4 2019, 09:02:19)
 [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -80,13 +79,17 @@ Llamaremos así al conjunto de archivos escritos en un **lenguaje de programaci�
 
 ### Identificadores
 
-Llamaremos así a las palabras que usaremos para identificar conceptos creados por programadores, nosotros mismos o que vengan de **Libraries** (bibliotecas) externas. Una **Library** agrupa un conjunto de funcionalidades para que un programador la reuse en su programa. Por ejemplo, una librería llamada "Math" de javascript nos permite hacer fácilmente (en términos de tiempo del programador) la raiz cuadrada de 5 escribiendo `Math.sqrt(5)`.
+Llamaremos así a las palabras que usaremos para identificar conceptos creados por programadoras: nosotres mismes o que vengan de **Libraries** (bibliotecas) externas. 
 
-Llamamos **framework** a una librería que nos provee muchas funcionalidades y además nos sugiere una manera de estructurar el código, con el fin de ahorrar tiempo de desarrollo y tener un resultado más claro y mantenible. Como hay muchas opiniones diferentes de qué es "claro", "mantenible" - y si nos interesa o no la funcionalidad que un framework nos da, hay numerosos frameworks populares en cada lenguaje de programación.
+### Libraries y Frameworks
+
+Una **Library** agrupa un conjunto de funcionalidad para que una programadora la reuse en su programa. Por ejemplo una biblioteca llamada "Math" de javascript nos permite hacer fácilmente (en términos de tiempo de la programadora) la raiz cuadrada de 5 escribiendo `Math.sqrt(5)`.
+
+Llamamos **framework** a una biblioteca que nos provee muchas funcionalidades y además nos sugiere una manera de estructurar el código, con el fin de ahorrar tiempo de desarrollo y tener un resultado más claro y mantenible. Como hay muchas opiniones diferentes de qué es "claro", "mantenible" - y si nos interesa o no la funcionalidad que un framework nos da - hay numerosos frameworks populares en cada lenguaje de programación.
 
 ### Keywords
 
-Traducido usualmente como **palabras reservadas**, serán todas aquellas que tienen un significado estructural en el código fuente. Dependerán del lenguaje que estemos usando. En general los caracteres no alfabéticos son palabras reservadas y tienen significados especiales, por ejemplo: `[] {} , . ; () ! "" ''` y todos los símbolos matemáticos `+ - * / = < >`.
+Traducido usualmente como **palabras reservadas**, serán todas aquellas que tienen un significado estructural en el código fuente. Dependerán del lenguaje que estemos usando. En general los caracteres no alfabéticos son palabras reservadas y tienen significados especiales. Por ejemplo: `[] {} , . ; () ! "" ''` y todos los símbolos matemáticos `+ - * / = < >`.
 
 Las palabras reservadas ocupan el mismo espacio conceptual que los identificadores. Por ejemplo, `string` es una palabra reservada de Java, nadie puede crear un identificador con ese nombre.
 
@@ -108,7 +111,7 @@ const NOMBRE_CHARLA = 'Introducción a la programación'
 
 ### Literals
 
-Son valores que escribimos en el código como expresiones literales. En los ejemplos anteriores los estuvimos usando: `12345` es un valor literal que representa al numero 12345, bien como `'Introducción a la programación'`, que representa el texto "Introducción a la programación".
+Son valores que escribimos en el código como expresiones literales. En los ejemplos anteriores estuvimos usandolo: `12345` es un valor literal que representa al numero 12345, mientras que `'Introducción a la programación'` representa al texto "Introducción a la programación". Parece medio extraño decirlo así ya que estamos haciendo una **abstracción** entre lo que escribimos y lo que las cosas representan, estos casos parecen obvios pero no siempre será evidente la relación entre lo escrito y lo representado.
 
 ### Operators
 
@@ -121,7 +124,7 @@ Son valores que escribimos en el código como expresiones literales. En los ejem
 
 ### Comentarios
 
-Es muy importante que el código fuente sea claro - por ejemplo, para que alguien nuevo pueda entender como funciona la aplicaciòn. Para que eso sea posible, es esencial que haya una buena **documentación**. Una manera de lograrlo es añadiendo **comentarios** en las partes más importantes o que puedan ser confusas. Los intérpretes y compiladores ignoran los comentarios.
+Es muy importante que el código fuente sea claro - por ejemplo, para que alguien nuevo pueda entender como funciona la aplicación. Esto se logra escribiendo una buena **documentación** y una manera de lograr eso es añadiendo **comentarios** en las partes más importantes o que puedan ser confusas. Los intérpretes y compiladores ignoran los comentarios, es decir, el resultado final será igual sin importar cuántos añadamos, son solamente para los ojos de la siguiente programadora.
 
 ```python
 # Esta variable siempre tendrá el número de palabras escritas actualizado
@@ -131,8 +134,6 @@ palabras_escritas = 12345
 ## Tipos de datos
 
 Para poder guardar información en la memoria, por ejemplo usando los **literals** que vimos antes, el programa necesita saber el contenido y también el tipo de información que estamos guardando. De esta manera, `'hola'` sería de tipo `string` (cadena de texto) y `12345` sería de algún tipo numérico `number`. Cada lenguaje tiene sus tipos asociados, aunque encontramos similitudes entre todos.
-
-# TODO: buscar el tipo numérico de python y ponerlo arriba y abajo
 
 ### Básicos
 
@@ -148,13 +149,13 @@ Hablamos brevemente de los errores que podemos tener al intentar compilar o ejec
 
 ### Syntax errors
 
-Este es el tipo de bug más simple de resolver. Ocurre en lo que llamamos "tiempo de compilación", es decir, inmediatamente al ejeutar el compilador o el intérprete. Como el nombre lo indica, tenemos un problema de sintaxis - el lenguaje que estamos usando exige que cumplamos ciertas reglas y no lo estamos haciendo.
+Este es el tipo de bug más simple de resolver. Ocurre en lo que llamamos "tiempo de compilación": el momento en que ejecutamos el compilador o el interprete. Como el nombre lo indica, tenemos es un problema de sintaxis - el lenguaje que estamos usando exige que cumplamos ciertas reglas de estructura del contenido y no lo estamos haciendo.
 
-De la misma manera que en español siempre estará mal poner dos artículos seguidos, i.e. "el la cosa", cualquier lenguaje nos dirá que está mal usar dos operadores seguidos, i.e. `const CONSTANTE = = 'algo'`.
+De la misma manera que en español siempre estará mal poner dos artículos seguidos, i.e. "el la cosa", cualquier lenguaje nos dirá que está mal usar dos operadores seguidos, i.e. `const CONSTANTE = = 'algo'`. `= =` es una sintaxis inválida en js, cambiarlo a `const CONSTANTE = 'algo'` sería lo correcto.
 
 ### Semantic errors
 
-Estos errores refieren a la semántica de lo que estamos escribiendo, no a la forma. Por lo tanto, suelen ser más problematicos de descubrir. El programa no detectará estos errores, ya que no puede saber si el significado de lo que estamos haciendo es correcto. Solo el usuario, o una persona que lea muy atentamente el código, podrá detectarlo.
+Estos errores refieren a la semántica de lo que estamos escribiendo, no a la forma, lo que los vuelve más problematicos de descubrir. El intérprete/compilador no detectará estos errores porque no puede saber si el significado (semántica) de lo que estamos haciendo es correcto. Solo la usuaria del programa, o una persona que lea muy atentamente el código, podrá detectarlo.
 
 ```python
 1 + 2 * 3
@@ -165,25 +166,27 @@ Estos errores refieren a la semántica de lo que estamos escribiendo, no a la fo
 
 ### Runtime errors
 
-Estos errores ocurren cuando, en la ejecución, se intenta hacer alguna operación imposible, como dividir por 0 - o alguna otra operación que no esté permitida en el lenguaje, pero que no sea un error de sintaxis. A diferencia de los errores semánticos, este sí será detectado por la computadora: el intérprete nos avisará del error o la aplicación se cerrará y el sistema operativo nos avisará que algo falló.
+Estos errores ocurren cuando durante la ejecución del programa se intenta hacer alguna operación imposible, como dividir por 0, o alguna otra operación que no esté permitida en el lenguaje pero que no sea un error de sintaxis. A diferencia de los errores semánticos este sí será detectado por la computadora: el intérprete nos avisará del error o la aplicación se cerrará y el sistema operativo nos avisará que algo falló.
 
 También pueden haber errores en tiempo de ejecución por operaciones inválidas respecto a los recursos del sistema, como querer usar una parte de la memoria que no existe.
 
 ### Debugging
 
-Es la actividad de encontrar la explicación y corregir los bugs. Hay varias herramientas que nos ayudan a encontrar los errores, algunas analizando el código fuente, antes de que el programa se ejecute.
+Es la actividad encontrar, entender y corregir los bugs. Hay varias herramientas que nos ayudan a encontrar los errores:
 
-- Linters: son programas que revisan el código fuente y nos avisan si lo que escribimos no cumple con ciertos estándares que hayamos definido. Por ejemplo, nos alertan si escribimos algo que es correcto, pero que podría ser ambiguo.
+- Linters: son programas que revisan el código fuente y nos avisan si lo que escribimos no cumple con cierto estándares que hayamos definido. Algo que podría detectar un linter sería una expresión ambigua en su significado pero correcta en sus sintaxis, como por ejemplo podríamos decirle que en las operaciones aritméticas siempre se usen paréntesis y nos avise si no es así.
 
-- IDEs: IDE significa Integrated Development Environment, y es el nombre que le damos a los editores de texto que usaremos para programar. Además de permitirnos edición básica, suelen tener linters y autocompletado, lo que nos ayuda a escribir más rápido y con menos errores.
+- IDEs: IDE significa Integrated Development Environment, es el nombre que le damos a los editores de texto que usaremos para programar. Además de permitirnos edición simple de texto suelen tener linters y autocompletado, lo que nos ayuda a escribir más rápido y con menos errores.
 
 - Leer el código en voz alta: seguir paso a paso lo que escribimos puede exponernos rápidamente a encontrar donde lo escrito se aleja de lo que queríamos escribir.
 
-- **Logs** de errores: cuando un programa corriendo muere o tira algún error, recobrarle suele dejar algún texto expresando lo que pasó. Revisarlo, en muchos casos, nos permite saber instantáneamente qué salió mal, y en otros casos nos puede dar una buena guía de por donde empezar a investigar.
+- **Logs** de errores: cuando un programa corriendo termina abruptamente o muestra algún error recobrarle suele dejar algún texto expresando lo que pasó, a ellos los llamamos "logs". Revisarlos en muchos casos nos permite saber instantáneamente qué salió mal, pero incluso si no es así igualmente nos da una buena guía para saber por donde empezar a investigar.
+
+- Debuggers interactivos: nos permiten pausar la ejecución del programa y analizar el estado del mismo, ayudándonos a entender mejor problemas semánticos.
 
 ## Estructura de un programa
 
-### Lineas de código y expressions y statements
+### Lineas de código, expressions y statements
 
 La línea de código es la unidad mínima para pensar el código fuente, el programa mínimo tendrá al menos una.
 
@@ -191,7 +194,7 @@ La línea de código es la unidad mínima para pensar el código fuente, el prog
 area_triangular = base * altura / 2
 ```
 
-En este ejemplo, hay una sola linea de código y varias expresiones. Una expresión es una combinación de operadores y operandos - dado que hay 3 operadores `= * /`, podríamos hablar de 3 expresiones. Llamaremos **statement** a una unidad sintáctica del programa - podríamos pensarlo como una "oración". En este caso, y en muchos otros, el statement es la linea de código completa, pero no es una correspondencia necesaria.
+En este ejemplo hay una sola linea de código y varias expresiones. Una expresión es una combinación de operadores y operandos; dado que hay 3 operadores `= * /` podríamos hablar de 3 expresiones. Llamaremos **statement** a una unidad sintáctica del programa, podríamos pensarlo como una "oración". En este caso el statement es la linea de código completa, pero no siempre tiene que ser así, una linea de código puede incluir varios statements.
 
 Así como este artículo es una secuencia de oraciones, podemos pensar un programa como una secuencia de statements. Para poder hablar de ellos de manera simbólica, usaremos la letra **S** y el enésimo statement lo representaremos como **Sn**.
 
@@ -253,16 +256,14 @@ S1 S2 S3 S1 S2 S3
 
 Habiendo definido la programación como instruir a una computadora sobre qué tareas debe realizar, implíciamente asumimos que tenemos algún objetivo final en nuestra tarea. De ahí, podríamos decir que programar es también "resolver problemas por medio de una computadora". A veces serán problemas integrados a soluciones no informáticas - como "desarrollar una app que me permita conseguir estacionamiento fácil y barato", pero normalmente los descompondremos en problemas solubles solo con código, por ejemplo: "dada una representación de un mapa con estacionamientos y mi posición, quiero obtener el más cercano y barato a la posición dada".
 
-El programador es, entonces, una persona más o menos apasionada por resolver problemas y desafíos de manera cotidiana. Otra cosa implícita en la definición anterior es que no existe **una** solución única a un problema - así que también podemos inferir que programar exige un esfuerzo creativo y educado. Debemos encontrar una solución y debe ser aceptable, entre otras cosas, en términos de eficiencia. Una aplicación a la que le pidamos donde estacionar y nos responda 3 horas después habiendo gastado toda la batería del celular no es válida para nuestro contexto de uso. Esto requiere conocer de programación y también del contexto de nuestros usuarios.
+La persona programadora es, entonces, alguien más o menos apasionada en resolver problemas y desafíos de manera cotidiana. Otra cuestión implícita en la definición anterior es que no existe **una** solución única a un problema - así que también podemos inferir que programar exige un esfuerzo creativo y educado. Debemos encontrar una solución y aquella debe ser aceptable, entre otras cosas, en términos de eficiencia. Una aplicación a la que le pidamos donde estacionar y nos responda 3 horas después habiendo gastado toda la batería del dispositivo no es válida para nuestro contexto de uso. Hacer un programa aceptable requiere, por lo tanto, conocer de programación y también del contexto de nuestros usuarios.
 
-Finalmente, mencionaré que el programador también tiene que tener presente a sus colegas del futuro, siendo ordenado y claro en la solución que escriba. Es muy común encontrar soluciones breves a problemas complejos que solo el que las escribió entiende - y esto no es deseable ni aceptable.
+Para terminar, quiero mencionar que la programadora también tiene que tener presente a sus colegas del futuro, siendo ordenada y clara en la solución que escriba. Es muy común encontrar soluciones breves a problemas complejos que solo quien que las escribió entiende, algo que en general no es deseable ni aceptable profesionalmente.
 
 ## Saber más
 
 - Existen compiladores híbridos que pasan de código fuente a un **bytecode** o "código precompilado". Java hace esto y el resultado es interpretado por otro programa, la **Java Virtual Machine** o JVM. También existen lenguajes cuya finalidad es ser compilados (**transpiled**) a otros, como Typescript a Javascript - esto es común en la web, ya que los navegadores solo ejecutan Javascript.
 
-- Hay quien dice que los programadores solo copiamos y pegámos código de Internet. Tal vez no sea cierto, pero esta guía fue escrita tomando como guía https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c 
+- Hay quien dice que las programadoras solo copiamos y pegámos código de Internet. Tal vez no sea cierto, pero esta guía fue escrita tomando como base https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c 
 
-> NOTE: I don’t recommend over-reading on the same topic. I believe in acting on the little you’ve learned, that is, practicing. This is why I’m not dumping too many links here for your learning. Feel free to google up or find others based on what you already know if you are not a first-timer.
-
-- Permalink al texto de esta charla: [link](http://some-url.com.ar)
+- Permalink al texto de esta charla: [link](https://github.com/Gahen/programacion-para-personas)
