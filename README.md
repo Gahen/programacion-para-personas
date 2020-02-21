@@ -267,3 +267,6 @@ Para terminar, quiero mencionar que la programadora también tiene que tener pre
 - Hay quien dice que las programadoras solo copiamos y pegámos código de Internet. Tal vez no sea cierto, pero esta guía fue escrita tomando como base https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c 
 
 - Permalink al texto de esta charla: [link](https://github.com/Gahen/programacion-para-personas)
+
+- Traducciónes y derivados:
+  - Portugués: [parte 1](https://medium.com/@andreattasam/come%C3%A7ando-a-programar-meus-primeiros-passos-f8c01b3f5d69) [parte 2](https://medium.com/@andreattasam/come%C3%A7ando-a-programar-meus-primeiros-passos-parte-2-844415c896c)
